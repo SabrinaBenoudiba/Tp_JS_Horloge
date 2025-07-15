@@ -1,14 +1,23 @@
+
 #clock{
     height: 650px;
     width: 650px;
-    margin: 0 auto;
     position: absolute;
     background-color:rgb(206, 199, 199);
-    border-radius: 50%;
+    border-radius: 350px;
     border: 10px solid #333;
     transform-origin: bottom center;
-    top: 50%;
-    left: 50%
+    margin-left: 53em;
+    background-image: url(pictures/images.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(.6);
+    /* filter: brightness(1.2); */
+}
+
+.title{
+    text-align: center;
 }
 
 .numbers{
@@ -21,19 +30,22 @@
     left: 50%;
     width: 25px;
     height: 25px;
-    background-image: linear-gradient(to right, #0c0d0e, #889091);
+    background-image: linear-gradient(to right, whitesmoke, #889091);
     border-radius: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
 
 .clockNumbers{
+    color: whitesmoke;
     position: absolute;
-    font-weight: bolder;
-    /* width: 500px;
-    height: 500px; */
+    /* font-weight: bold; */
     top: 50%;
     left: 50% 
+}
+
+.numbers{
+    font-weight: bolder;
 }
 
 
@@ -46,18 +58,20 @@
 
 #hours{
     width: 12px; height: 180px;
-    background: #747272;
+    background:  whitesmoke
+  
 }
 
 #minutes{
     width: 10px; height: 230px;
-    background: #3f3f3f;
+    background:  whitesmoke;
+;
 
 }
 
 #seconds{
     width: 4px; height: 250px;
-    background: #333;
+    background:white
 }
 
 /* .numbers1{
