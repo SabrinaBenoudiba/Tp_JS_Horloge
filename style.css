@@ -1,0 +1,114 @@
+#clock{
+    height: 650px;
+    width: 650px;
+    margin: 0 auto;
+    position: absolute;
+    background-color:rgb(206, 199, 199);
+    border-radius: 50%;
+    border: 10px solid #333;
+    transform-origin: bottom center;
+    top: 50%;
+    left: 50%
+}
+
+.numbers{
+    position: absolute;
+
+}
+.centerButton{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    background-image: linear-gradient(to right, #0c0d0e, #889091);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.clockNumbers{
+    position: absolute;
+    font-weight: bolder;
+    /* width: 500px;
+    height: 500px; */
+    top: 50%;
+    left: 50% 
+}
+
+
+#hours, #minutes, #seconds{
+    position: absolute;
+    left: 50%; bottom: 50%;
+    background: #333;
+    transform-origin: bottom;
+}
+
+#hours{
+    width: 12px; height: 180px;
+    background: #747272;
+}
+
+#minutes{
+    width: 10px; height: 230px;
+    background: #3f3f3f;
+
+}
+
+#seconds{
+    width: 4px; height: 250px;
+    background: #333;
+}
+
+/* .numbers1{
+    transform: rotate(30deg);
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform-origin: center center;
+    transform: translate(-50%, -50%); */
+/* }
+
+/* .numbers2{
+    transform: rotate(60deg);
+}
+
+.numbers3{
+    transform: rotate(90deg);
+}
+
+.numbers4{
+    transform: rotate(120deg);
+}
+
+.numbers5{
+    transform: rotate(150deg);
+}
+
+.numbers6{
+    transform: rotate(180deg);
+}
+
+.numbers7{
+    transform: rotate(210deg);
+}
+
+.numbers8{
+    transform: rotate(240deg);
+}
+
+.numbers9{
+    transform: rotate(270deg);
+}
+
+.numbers10{
+    transform: rotate(300deg);
+}
+
+.numbers11{
+    transform: rotate(330deg);
+}
+
+.numbers12{
+    transform: rotate(360deg);
+} */
