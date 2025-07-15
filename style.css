@@ -1,4 +1,13 @@
+/*********************Horloge Analogique***********************/
 
+.test{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
 #clock{
     height: 650px;
     width: 650px;
@@ -74,55 +83,21 @@
     background:white
 }
 
-/* .numbers1{
-    transform: rotate(30deg);
-    /* position: absolute;
+/*********************Numérique***********************/
+.numeriqueClock{
+    position: absolute;
+    top: 75%;
     left: 50%;
-    top: 50%;
-    transform-origin: center center;
-    transform: translate(-50%, -50%); */
-/* }
-
-/* .numbers2{
-    transform: rotate(60deg);
+    height: 100vh;
+    /* background: ; */
 }
 
-.numbers3{
-    transform: rotate(90deg);
+#clock2 {
+    color: #825814;
+    font-size: 6rem;
+    letter-spacing: 0.2rem;
+    padding: 30px 60px;
+    border-radius: 20px;
+    /* box-shadow: 0 0 40px #00ffe799; */
+    /* backdrop-filter: blur(8px); */
 }
-
-.numbers4{
-    transform: rotate(120deg);
-}
-
-.numbers5{
-    transform: rotate(150deg);
-}
-
-.numbers6{
-    transform: rotate(180deg);
-}
-
-.numbers7{
-    transform: rotate(210deg);
-}
-
-.numbers8{
-    transform: rotate(240deg);
-}
-
-.numbers9{
-    transform: rotate(270deg);
-}
-
-.numbers10{
-    transform: rotate(300deg);
-}
-
-.numbers11{
-    transform: rotate(330deg);
-}
-
-.numbers12{
-    transform: rotate(360deg);
-} */

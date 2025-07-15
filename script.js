@@ -1,3 +1,5 @@
+//*********************Horloge Analogique***********************
+
 function updateClock() {
     const date = new Date();
     const hr = date.getHours();
@@ -27,4 +29,19 @@ numbers.forEach((number, i) => {
         rotate(-${angle}deg)
     `;
 });
+
+
+//************************ Horloge Numérique*********************
+
+function updateClock2(){
+    const now = new Date();
+    let hours = now.getHours().toString().padStart(2,0);
+    let minutes = now.getMinutes().toString().padStart(2,0);
+    let seconds = now.getSeconds().toString().padStart(2,0);
+
+    document.getElementById("clock2").textContent = `${hours} : ${minutes} : ${seconds}`
+}
+
+setInterval(updateClock2, 1000);
+updateClock2();
 
